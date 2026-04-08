@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import services from "@/data/ServiceData";
+import {services} from "@/data/ServiceData";
 import { MdArrowForward } from "react-icons/md";
 import Link from "next/link";
 

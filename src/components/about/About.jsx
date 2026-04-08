@@ -41,23 +41,23 @@ const About = () => {
 
                         {/* Column 1 */}
                         <li className="flex items-start gap-3 text-[#1c3f39]">
-                            <HiOutlineCheckCircle className="text-yellow-400 w-6 h-6 flex-shrink-0" />
+                            <HiOutlineCheckCircle className="text-[#f1f45d] w-6 h-6 flex-shrink-0" />
                             Expert in Digital Marketing
                         </li>
 
                         <li className="flex items-start gap-3 text-[#1c3f39]">
-                            <HiOutlineCheckCircle className="text-yellow-400 w-6 h-6 flex-shrink-0" />
+                            <HiOutlineCheckCircle className="text-[#f1f45d] w-6 h-6 flex-shrink-0" />
                              Web & Mobile Development
                         </li>
 
                         {/* Column 2 */}
                         <li className="flex items-start gap-3 text-[#1c3f39]">
-                            <HiOutlineCheckCircle className="text-yellow-400 w-6 h-6 flex-shrink-0 mt-1" />
+                            <HiOutlineCheckCircle className="text-[#f1f45d] w-6 h-6 flex-shrink-0 mt-1" />
                             Creative UI/UX Design Solutions
                         </li>
 
                         <li className="flex items-start gap-3 text-[#1c3f39]">
-                            <HiOutlineCheckCircle className="text-yellow-400 w-6 h-6 flex-shrink-0" />
+                            <HiOutlineCheckCircle className="text-[#f1f45d] w-6 h-6 flex-shrink-0" />
                             Project Management
                         </li>
                     </ul>

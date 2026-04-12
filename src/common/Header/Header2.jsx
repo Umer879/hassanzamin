@@ -24,7 +24,7 @@ const Navbar = () => {
                     {/* --- LAPTOP NAVBAR (Left Col: Logo) --- */}
                     <div className="flex-shrink-0" >
                         <Link href="/">
-                            <Image width={100} height={70} src="/assets/logo/logo.png" alt="" />
+                            <Image width={150} height={80} src="/assets/logo/final-logo.jpg" alt="" />
                         </Link>
                     </div>
 
@@ -41,7 +41,7 @@ const Navbar = () => {
                         <a
                             href="https://wa.me/923453884988"
                             target="_blank"
-                            rel="noopener noreferrer" 
+                            rel="noopener noreferrer"
                             className="flex items-center uppercase gap-2 hover:bg-[#f1f45d] transition-all  text-white px-5 py-2.5 border hover:text-black border-[#f1f45d] rounded-[4px]"
                         >
                             Whatsapp: +92 345 3884988
@@ -73,7 +73,7 @@ const Navbar = () => {
                     <div className="flex justify-between items-center mb-10">
                         <div>
                             <Link href="/">
-                                <Image width={100} height={70} src="/assets/logo/logo2.png" alt="" />
+                                <Image width={150} height={80} src="/assets/logo/white-logo.png" alt="" />
                             </Link>
                         </div>
                         <button onClick={() => setIsOpen(false)} className="p-2 bg-gray-100 rounded-full" aria-label='Toggle Close button'>

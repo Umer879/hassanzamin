@@ -5,6 +5,7 @@ import { servicesLinks } from "@/data/FooterData"
 import { MdSend } from "react-icons/md";
 import { FaChevronRight, FaCheck, FaPaperPlane, FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -37,7 +38,7 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto px-6 py-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                 <div>
                     <div>
-                        <img src="/assets/logo/logo2.png" alt="" />
+                        <Image  src="/assets/logo/white-logo.png" width={150} height={80} alt="" />
                     </div>
                     <p className="text-sm my-6 text-[#201c3f]">
                         We help businesses grow with modern digital marketing strategies and tools.

@@ -1,44 +1,55 @@
 import {
-  FaCode,
   FaBullhorn,
-  FaSearch,
-  FaPaintBrush,
   FaChartLine,
-  FaMobileAlt,
+  FaBriefcase,
+  FaRocket,
+  FaUserPlus,
+  FaFilter,
+  FaHandshake,
+  FaChalkboardTeacher,
 } from "react-icons/fa";
 
- const skills = [
+const skills = [
   {
-    title: "Web Development",
-    desc: "Modern and responsive websites built with latest technologies like React, Next.js and Tailwind CSS.",
-    logo: FaCode,
-  },
-  {
-    title: "Digital Marketing",
-    desc: "Grow your business with effective online marketing strategies including social media and ads.",
+    title: "Digital Marketing Strategy",
+    desc: "Build result-driven strategies to increase brand visibility, engagement, and long-term business growth.",
     logo: FaBullhorn,
   },
   {
-    title: "SEO Optimization",
-    desc: "Improve your website ranking on search engines and get organic traffic with proven SEO techniques.",
-    logo: FaSearch,
-  },
-  {
-    title: "UI/UX Design",
-    desc: "Clean and user-friendly designs that enhance user experience and increase engagement.",
-    logo: FaPaintBrush,
-  },
-  {
-    title: "Business Growth",
-    desc: "Data-driven strategies to boost your brand performance and scale your business efficiently.",
+    title: "Performance Marketing",
+    desc: "Run optimized ad campaigns focused on ROI, conversions, and scalable business results.",
     logo: FaChartLine,
   },
   {
-    title: "Mobile Friendly",
-    desc: "Fully responsive designs that work perfectly on all devices including mobile and tablets.",
-    logo: FaMobileAlt,
+    title: "Business Growth Strategy",
+    desc: "Identify opportunities and implement systems to scale businesses and increase revenue efficiently.",
+    logo: FaBriefcase,
+  },
+  {
+    title: "Brand Positioning",
+    desc: "Create strong brand identity and positioning strategies to stand out in competitive markets.",
+    logo: FaRocket,
+  },
+  {
+    title: "Lead Generation Systems",
+    desc: "Design automated systems to attract, capture, and convert high-quality leads consistently.",
+    logo: FaUserPlus,
+  },
+  {
+    title: "Sales Funnel Optimization",
+    desc: "Improve conversion rates by optimizing every stage of the customer journey.",
+    logo: FaFilter,
+  },
+  {
+    title: "Client Acquisition Strategy",
+    desc: "Develop proven methods to consistently acquire and retain valuable clients.",
+    logo: FaHandshake,
+  },
+  {
+    title: "Business Consulting & Mentorship",
+    desc: "Provide expert guidance to help businesses scale with clarity, strategy, and confidence.",
+    logo: FaChalkboardTeacher,
   },
 ];
 
-
-export default skills
+export default skills;

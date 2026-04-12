@@ -2,11 +2,14 @@
 
 export default function SkillsMarquee() {
   const skills = [
-    "Digital Marketing",
-    "Web developement",
-    "UI / UX Designer",
-    "Marketing & Advertisement",
-    "Project Management"
+    "Digital Marketing Strategy",
+    "Performance Marketing",
+    "Business Development",
+    "Brand Growth Strategy",
+    "Lead Generation Systems",
+    "Funnel Optimization",
+    "Client Acquisition Strategy",
+    "Mentorship & Business Consulting",
   ];
 
   return (

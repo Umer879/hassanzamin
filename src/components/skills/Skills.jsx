@@ -6,7 +6,7 @@ import SkillsCard from "@/components/skills/SkillsCard";
 
 const Skills = () => {
   return (
-    <section className="relative w-full pb-10 md:px-12 px-6 lg:px-16 bg-[#1c3f39] overflow-hidden">
+    <section className="relative w-full pb-10 md:px-12 px-6 lg:px-16 bg-[#201c3f] overflow-hidden">
       
       {/* Background Decoration Image */}
       <div className="absolute inset-0 opacity-10 pointer-events-none">
@@ -28,13 +28,13 @@ const Skills = () => {
               My Skills
             </h4>
             <p className="text-white text-3xl md:text-4xl leading-snug">
-              Crafting portfolios <br /> that inspire to good success
+              Crafting strategies <br /> that drive growth and long-term success
             </p>
           </div>
 
           <div>
             <Link href={"/services"}>
-              <button className="flex items-center gap-3 px-6 py-4 uppercase text-sm border border-[#f1f45d] text-white font-bold rounded-sm hover:bg-[#f1f45d] hover:text-[#1c3f39] transition">
+              <button className="flex items-center gap-3 px-6 py-4 uppercase text-sm border border-[#f1f45d] text-white font-bold rounded-sm hover:bg-[#f1f45d] hover:text-[#201c3f] transition">
                 See more
                 <MdArrowForward size={18} />
               </button>

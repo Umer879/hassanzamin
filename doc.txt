@@ -1,47 +1,9 @@
-Portfolio Pages:
-1. Home Page 
-2. About Page 
-3. Services Page 
-4. Portfolio / case studies
-5. Contact Us Page 
-6. optional ( blog Page )
+Pending Task:
+    terms and condition 
+    privacy policy 
+    add a blog page
 
-Home Page Sections:
-1. Hero section 
-2. Trusted Social proof
-3. Services overview / Result achievement
-4. Portfolio preview
-5. Why choose me 
-6. Testimonials 
-7. CTA ( Call to Action )
 
-About Page Sections:
-1. Intro / Hero 
-2. My Story 
-3. Skills & expertise 
-4. Tools / Platforms
-5. Achievements stats 
-6. CTA 
-
-Services Page Sections:
-1. Hero / Intro 
-2. Services ( detailed each card )
-3. Process ( How I work )
-4. Results / benifit 
-5. Case study
-6. FAQs
-7. CTA 
-
-Portfolio Page Sections:
-1. Hero 
-2. Project list
-3. Detailed case study
-4. Metrics section 
-5. Tools used
-6. CTA 
-
-Contact Page:
-1. Hero 
-2. Contact Form + direct contact info
-3. Quick CTA 
-4. Mini FAQs 
+ serviceId:   service_2mnkq4k
+ templateId: template_jt87cks
+ publicKey:   LRjISDYa6hIDQXAqG

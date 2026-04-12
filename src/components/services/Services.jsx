@@ -8,14 +8,14 @@ export default function ServicesSection() {
     const [activeService, setActiveService] = useState(services[0]);
 
     return (
-        <section className="w-full pb-10 md:px-12 px-6  lg:px-16 bg-[#1c3f39]">
-            <div className="service-heading flex justify-between items-center py-20">
-                <div className=" font-bold">
+        <section className="w-full pb-10 md:px-12 px-6  lg:px-16 bg-[#201c3f]">
+            <div className="service-heading flex sm:flex-row flex-col justify-between items-center py-20">
+                <div className=" font-bold text-center sm:text-start">
                     <h4 className="text-[#f1f45d] text-[18px] uppercase tracking-widest">Latest Services</h4>
-                    <p className="text-white text-4xl leading-12">Showcasing excellence <br /> through portfolios</p>
+                    <p className="text-white text-[24px] sm:text-4xl sm:leading-12">Showcasing excellence <br /> through portfolios</p>
                 </div>
                 <div>
-                    <Link href={"/services"}>           <button className="flex items-center gap-3 px-6 py-4 uppercase text-sm border border-[#f1f45d] text-white font-bold rounded-sm hover:bg-[#f1f45d] hover:text-[#1c3f39] transition">
+                    <Link href={"/services"}>           <button className="mt-5 sm:mt-0 flex items-center gap-3 px-6 py-4 uppercase text-sm border border-[#f1f45d] text-white font-bold rounded-sm hover:bg-[#f1f45d] hover:text-[#201c3f] transition">
                         Our Services
                         <MdArrowForward size={18} />
                     </button></Link>

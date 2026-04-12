@@ -12,10 +12,10 @@ const socialLinks = [
 ];
 
 const servicesLinks = [
-  { name: "Home", link: "#" },
-  { name: "Services", link: "#" },
-  { name: "Portfolios", link: "#" },
-  { name: "Blogs", link: "#" },
+  { name: "Home", link: "/" },
+  { name: "Services", link: "/services" },
+  { name: "Portfolios", link: "/portfolio" },
+  { name: "Blogs", link: "/blogs" },
 ];
 
 

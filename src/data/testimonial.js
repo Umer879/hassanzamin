@@ -1,28 +1,28 @@
 const testimonials = [
   {
-    name: "Ahmed Raza",
-    role: "Business Owner",
-    image: "/assets/icons/img-1.jpg",
-    desc: "Hassan Zamin helped us scale our business through powerful digital marketing strategies and performance campaigns that delivered real and measurable growth.",
+    name: "Umar Gull",
+    role: "MERN Stack developer",
+    image: "/assets/reviews/4.png",
+    desc: "As a MERN stack developer, I really appreciate clean execution and scalable thinking. Working with this team helped me improve my frontend structure and backend integration flow in a more efficient way.",
   },
   {
-    name: "Sara Khan",
-    role: "Marketing Manager",
-    image: "/assets/icons/img-1.jpg",
-    desc: "Working with Hassan improved our lead generation system and brand visibility. His strategies are practical, data-driven, and highly effective for business growth.",
+    name: "Inam Sheikh",
+    role: "Digital Experts",
+    image: "/assets/reviews/1.png",
+    desc: "Their digital strategies are practical and result-oriented. I observed clear improvements in campaign performance, audience targeting, and overall brand reach after applying their techniques.",
   },
   {
-    name: "Ali Ahmed",
-    role: "Startup Founder",
-    image: "/assets/icons/img-1.jpg",
-    desc: "His mentorship and business consulting helped us optimize our sales funnel and significantly increase our client acquisition rate within a short time.",
+    name: "Saqib Hussain",
+    role: "Software developer",
+    image: "/assets/reviews/2.png",
+    desc: "The collaboration helped me understand better system design and client requirements. Their approach improved my development workflow and made project delivery more structured and reliable.",
   },
   {
-    name: "Emma Watson",
-    role: "Entrepreneur",
-    image: "/assets/icons/img-1.jpg",
-    desc: "Hassan provides clear, result-oriented guidance. His expertise in digital marketing and brand strategy has been a game changer for our business expansion.",
+    name: "Syed Mustafa Shah",
+    role: "Data Analyst",
+    image: "/assets/reviews/3.png",
+    desc: "Their insights helped me refine data interpretation and reporting methods. I was able to improve accuracy in analysis and present more meaningful insights to stakeholders.",
   },
 ];
 
-export default testimonials
+export default testimonials;

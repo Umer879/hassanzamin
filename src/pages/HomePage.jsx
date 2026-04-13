@@ -7,7 +7,7 @@ import ServicesSection from "@/components/services/Services";
 import LatestProjects from "@/components/showcase-portfolios/projects";
 import Testimonial from "@/components/testimonial/Testimonial";
 import Skills from "@/components/skills/Skills";
-import BlogSection from '@/components/blogs/Blogs';
+// import BlogSection from '@/components/blogs/Blogs';
 import CTA from "@/common/CTA/CTA";
 const HomePage = () => {
     return (
@@ -20,7 +20,7 @@ const HomePage = () => {
             <LatestProjects />
             <Testimonial />
             <Skills />
-            <BlogSection />
+            {/* <BlogSection /> */}
             <CTA />
         </>
     )

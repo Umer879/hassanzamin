@@ -24,25 +24,33 @@ const ProjectPageCard = () => {
                     {projects.slice(0, 6).map((service) => (
                         <div
                             key={service.id}
-                            className="group relative flex flex-col items-center overflow-hidden transition-all duration-300 rounded-lg"
+                            className="group relative flex flex-col items-center overflow-hidden transition-all duration-300  h-[350px]"
                         >
                             {/* Image */}
                             <img
                                 src={service.img}
                                 alt={service.headline}
-                                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                             />
 
-                            {/* Gray Overlay & Text Content */}
-                            <div className="absolute inset-0 bg-gray-900/60 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                <h4 className="text-white/80 mb-1 text-sm uppercase tracking-wider">
+                            {/* Static Headline (Always Visible) - Gradient for readability */}
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-100 group-hover:opacity-0 transition-all duration-500 ease-in-out flex flex-col justify-end p-6">
+                                {/* Headline Badge */}
+                                <span className="bg-[#f1f45d] text-[#201c3f] text-[11px] px-4 py-1.5 rounded-[4px] w-fit mb-2 uppercase tracking-[0.15em] font-bold shadow-sm backdrop-blur-sm">
+                                    {service.headline}
+                                </span>
+                            </div>
+
+                            {/* Hover Content (Title & Description) */}
+                            <div className="absolute inset-0 bg-[#201c3f]/80 flex flex-col justify-end p-6 translate-y-[100%] group-hover:translate-y-0 transition-transform duration-500 ease-out">
+                                <h4 className="text-[#f1f45d]  mb-1 text-xs uppercase tracking-[0.2em] font-bold">
                                     {service.headline}
                                 </h4>
-                                <h3 className="text-xl md:text-2xl font-bold text-white">
+                                <h3 className="text-xl md:text-2xl font-bold text-white leading-tight">
                                     {service.title}
                                 </h3>
-                                {/* Agar aap description bhi add karna chahen */}
-                                <p className="text-white/90 text-sm mt-2 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                                <div className="w-10 h-[2px] bg-[#f1f45d]  my-3 transition-all duration-500 delay-100 group-hover:w-full"></div>
+                                <p className="text-gray-200 text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-200">
                                     {service.description}
                                 </p>
                             </div>

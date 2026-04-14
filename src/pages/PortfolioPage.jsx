@@ -1,6 +1,6 @@
 import React from 'react'
 import Banner from '@/common/Banner/Banner'
-import LatestProjects from '@/components/showcase-portfolios/projects'
+import LatestProjects from '@/components/showcase-portfolios/projectsPageCard'
 const PortfolioPage = () => {
   return (
     <>

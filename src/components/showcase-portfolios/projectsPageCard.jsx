@@ -21,7 +21,7 @@ const ProjectPageCard = () => {
 
                 {/* Grid for services */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-                    {projects.slice(0, 6).map((service) => (
+                    {projects.map((service) => (
                         <div
                             key={service.id}
                             className="group relative flex flex-col items-center overflow-hidden transition-all duration-300 rounded-lg"

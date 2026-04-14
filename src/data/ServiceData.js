@@ -36,28 +36,60 @@ const services = [
 const projects = [
   {
     id: 1,
-    img: "/assets/services/service-1.png",
-    headline: "Web Design",
-    title: "Modern Web Solutions",
+    img: "/assets/gallary/1.png",
+    headline: "Frontend Development",
+    title: "Master React.js",
+    description: "Build dynamic and interactive user interfaces."
   },
   {
     id: 2,
-    img: "/assets/services/service-2.png",
-    headline: "SEO Optimization",
-    title: "Improve Search Rankings",
+    img: "/assets/gallary/3.png",
+    headline: "Backend Mastery",
+    title: "Node.js Essentials",
+    description: "Develop scalable server-side applications."
   },
   {
     id: 3,
-    img: "/assets/services/service-3.png",
-    headline: "Digital Marketing",
-    title: "Grow Brand Presence",
+    img: "/assets/gallary/8.png",
+    headline: "Full Stack",
+    title: "MERN Stack Bootcamp",
+    description: "End-to-end web development from scratch."
   },
   {
     id: 4,
-    img: "/assets/services/service-2.png",
-    headline: "Brand Strategy",
-    title: "Build Strong Identity",
+    img: "/assets/gallary/7.png",
+    headline: "Database Design",
+    title: "MongoDB Deep Dive",
+    description: "Manage and optimize NoSQL databases efficiently."
   },
+  {
+    id: 5,
+    img: "/assets/gallary/9.png",
+    headline: "UI/UX Design",
+    title: "Modern Web Design",
+    description: "Create stunning and responsive layouts."
+  },
+  {
+    id: 6,
+    img: "/assets/gallary/14.png",
+    headline: "Programming",
+    title: "JavaScript Pro",
+    description: "Master the core logic of modern web apps."
+  },
+  {
+    id: 7,
+    img: "/assets/gallary/5.png",
+    headline: "Mobile Repairing",
+    title: "iPhone Hardware Lab",
+    description: "Professional mobile hardware and logic board repair."
+  },
+  {
+    id: 8,
+    img: "/assets/gallary/14.png",
+    headline: "API Development",
+    title: "Restful API Guide",
+    description: "Build secure and fast communication layers."
+  }
 ];
 
 const serviceCards = [

@@ -16,8 +16,53 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Portfolio",
-  description: "Portfolio",
+  metadataBase: new URL("https://hassanzamin.com"),
+
+  title: {
+    default: "Hassan Zamin | Digital Marketing Strategist & Business Growth Expert",
+    template: "%s | Hassan Zamin",
+  },
+
+  description:
+    "Official portfolio of Hassan Zamin. 15+ years of experience in business growth, digital marketing, lead generation, performance marketing and brand scaling.",
+
+  keywords: [
+    "Hassan Zamin",
+    "Digital Marketing Strategist",
+    "Business Growth Expert",
+    "Performance Marketing",
+    "Lead Generation Expert",
+    "Brand Growth Consultant",
+    "Marketing Consultant Pakistan",
+    "SEO Expert",
+    "Business Development"
+  ],
+
+  authors: [{ name: "Hassan Zamin" }],
+  creator: "Hassan Zamin",
+
+  openGraph: {
+    title: "Hassan Zamin Official Portfolio",
+    description:
+      "Helping businesses scale smarter, grow faster, and achieve sustainable success through strategic marketing.",
+    url: "https://hassanzamin.com",
+    siteName: "Hassan Zamin",
+    locale: "en_US",
+    type: "website",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Hassan Zamin Portfolio",
+      },
+    ],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }) {

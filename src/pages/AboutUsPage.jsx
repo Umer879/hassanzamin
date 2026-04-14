@@ -6,6 +6,7 @@ import AboutVideo from '@/components/AboutVideo/AboutVideo'
 import Testimonial from '@/components/testimonial/Testimonial'
 import ServicesSection from '@/components/services/Services'
 const AboutUsPage = () => {
+  
   return (
     <div>
          <Banner title={"About Us"} current={"about-Us"} />

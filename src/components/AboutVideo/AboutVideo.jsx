@@ -16,7 +16,7 @@ export default function VideoSection() {
         >
           {/* Background Image */}
           <img
-            src="/assets/about/vedio-bg.jpg"
+            src="/assets/about/about-video.jpg"
             alt="video thumbnail"
             className="w-full h-full object-cover"
           />
@@ -35,7 +35,7 @@ export default function VideoSection() {
         /* Video Iframe */
         <iframe
           className="w-full h-full"
-         src="https://www.youtube.com/embed/0IciwnJ6PJI?si=Whe5BMFl0MSZthLa" title="YouTube video player"
+        src="https://www.youtube.com/embed/xuF6TlAQCO0?si=AmHdr-wyKDNSrTS7"  title="YouTube video player"
           allow="autoplay; encrypted-media"
           allowFullScreen
         ></iframe>

@@ -48,7 +48,7 @@ const Footer = () => {
                         {socialLinks.map((item, index) => (
                             <a
                                 key={index}
-                                tar
+                                target="_blank"
                                 href={item.link}
                                 className="border p-2 text-[#201c3f] rounded-full hover:bg-[#201c3f] hover:text-white border-gray-200"
                             >

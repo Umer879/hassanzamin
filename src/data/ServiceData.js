@@ -51,23 +51,23 @@ const projects = [
   {
     id: 3,
     img: "/assets/gallary/8.png",
-    headline: "Full Stack",
-    title: "MERN Stack Bootcamp",
-    description: "End-to-end web development from scratch."
+    headline: "Flora by BlueBend Launching Training",
+    title: "Flora Launch Training",
+    description: "Understand complete process of launching Flora products effectively."
   },
   {
     id: 4,
     img: "/assets/gallary/7.png",
-    headline: "Database Design",
-    title: "MongoDB Deep Dive",
-    description: "Manage and optimize NoSQL databases efficiently."
+    headline: "Hilal Foods Retail Merchandising Training",
+    title: "Retail Merchandising Training",
+    description: "Learn effective retail merchandising and product placement strategies."
   },
   {
     id: 5,
     img: "/assets/gallary/9.png",
-    headline: "UI/UX Design",
-    title: "Modern Web Design",
-    description: "Create stunning and responsive layouts."
+    headline: "L'Oréal Modern Trade Channel Training",
+    title: "Modern Trade Training",
+    description: "Understand modern retail channels and trade execution strategies."
   },
   {
     id: 6,
@@ -79,9 +79,9 @@ const projects = [
   {
     id: 7,
     img: "/assets/gallary/5.png",
-    headline: "Mobile Repairing",
-    title: "iPhone Hardware Lab",
-    description: "Professional mobile hardware and logic board repair."
+    headline: "Modern Trade App Tracking Training",
+    title: "App Tracking Training",
+    description: "Learn how to track and manage modern trade retail operations efficiently."
   },
   {
     id: 8,

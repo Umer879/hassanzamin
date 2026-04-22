@@ -38,7 +38,7 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto px-6 py-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                 <div>
                     <div>
-                        <Image  src="/assets/logo/white-logo.png" width={150} height={80} alt="" />
+                        <Image src="/assets/logo/white-logo.png" width={150} height={80} alt="" />
                     </div>
                     <p className="text-sm my-6 text-[#201c3f]">
                         We help businesses grow with modern digital marketing strategies and tools.
@@ -87,8 +87,8 @@ const Footer = () => {
 
                         <li className="flex text-[16px] items-center gap-2 my-4">
                             <FaEnvelope size={18} />
-                            <a href="mailto:hassaanzamin@gmail.com" className="hover:text-[#f2f540] blue-600 transition">
-                                hassaanzamin@gmail.com
+                            <a href="mailto:info@hassanzamin.com" className="hover:text-[#f2f540] blue-600 transition">
+                                info@hassanzamin.com
                             </a>
                         </li>
 

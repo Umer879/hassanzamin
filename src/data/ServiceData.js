@@ -37,16 +37,16 @@ const projects = [
   {
     id: 1,
     img: "/assets/gallary/1.png",
-    headline: "Frontend Development",
-    title: "Master React.js",
-    description: "Build dynamic and interactive user interfaces."
+    headline: "L'Oréal Retail Design Training",
+    title: "Retail Training",
+    description: "Learn luxury retail design fundamentals skills."
   },
   {
     id: 2,
     img: "/assets/gallary/3.png",
-    headline: "Backend Mastery",
-    title: "Node.js Essentials",
-    description: "Develop scalable server-side applications."
+    headline: "Shan foods - Training",
+    title: "Merchandising Training Live App Tracking system",
+    description: "Understand live tracking and merchandising workflow systems."
   },
   {
     id: 3,
@@ -72,9 +72,9 @@ const projects = [
   {
     id: 6,
     img: "/assets/gallary/14.png",
-    headline: "Programming",
-    title: "JavaScript Pro",
-    description: "Master the core logic of modern web apps."
+    headline: "Retail Design Mastery",
+    title: "Retail Design Mastery",
+    description: "Create modern and engaging retail experiences through design principles."
   },
   {
     id: 7,
@@ -86,9 +86,9 @@ const projects = [
   {
     id: 8,
     img: "/assets/gallary/14.png",
-    headline: "API Development",
-    title: "Restful API Guide",
-    description: "Build secure and fast communication layers."
+    headline: "Retail Design Mastery",
+    title: "Retail Design Mastery",
+    description: "Create modern and engaging retail experiences through design principles."
   }
 ];
 

@@ -13,9 +13,9 @@ const socialLinks = [
 
 const servicesLinks = [
   { name: "Home", link: "/" },
+  { name: "About", link: "/about-us" },
   { name: "Services", link: "/services" },
-  { name: "Portfolios", link: "/portfolio" },
-  { name: "Blogs", link: "/blogs" },
+  { name: "Trainings", link: "/trainings" },
 ];
 
 

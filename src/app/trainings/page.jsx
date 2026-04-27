@@ -1,9 +1,9 @@
 import React from 'react'
-import PortfolioPage from '@/pages/PortfolioPage'
+import TrainingPage from '@/pages/TrainingsPage'
 const page = () => {
   return (
     <div>
-      <PortfolioPage />
+      <TrainingPage />
     </div>
   )
 }

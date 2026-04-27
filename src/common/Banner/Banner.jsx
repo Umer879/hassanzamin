@@ -1,10 +1,11 @@
 "use client";
 import Link from "next/link";
+import { FaHome, FaChevronRight } from "react-icons/fa";
 
-const Banner = ({ title, current}) => {
+const Banner = ({ title, subtitle, current }) => {
   return (
-    <section className="relative w-full h-[250px] md:h-[300px] bg-[#201c3f] flex items-center justify-center overflow-hidden">
-      
+    <section className="relative w-full h-[250px]  bg-[#201c3f] flex items-center justify-center overflow-hidden">
+
       {/* Background Decoration Image */}
       <div className="absolute inset-0">
         <img
@@ -16,23 +17,34 @@ const Banner = ({ title, current}) => {
 
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4">
-        
+
         {/* Page Title */}
-        <h1 className="text-3xl md:text-4xl font-bold mb-3">
+        <h1 className="text-3xl md:text-[40px] font-bold mb-3">
           {title}
         </h1>
+        <h2 className="text-[26px] font-semibold mb-3">
+          {subtitle}
+        </h2>
 
-        {/* Breadcrumb */}
-        <div className="flex items-center justify-center gap-2 text-sm md:text-base">
-          <Link href="/" className="hover:text-[#f1f45d] transition">
-            Home
-          </Link>
 
-          <span>/</span>
+        <div className="flex justify-center items-center">
+          <div className="flex items-center p-2 justify-center gap-2 text-sm md:text-base bg-black w-fit">
 
-          <span className="text-[#f1f45d]">
-            {current}
-          </span>
+            <Link
+              href="/"
+              className="flex items-center gap-1 hover:text-[#f1f45d] transition"
+            >
+              <FaHome />
+              Home
+            </Link>
+
+            <FaChevronRight className="text-gray-400" />
+
+            <span className="text-white flex items-center gap-1">
+              {current}
+            </span>
+
+          </div>
         </div>
 
       </div>

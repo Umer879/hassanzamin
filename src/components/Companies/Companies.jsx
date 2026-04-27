@@ -9,7 +9,7 @@ import companies from "@/data/companiesData";
 export default function CompaniesWeWorkWith() {
     return (
         <section className="py-16 bg-white border-t border-gray-200">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className=" mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-10">
                     <p className="text-sm font-semibold tracking-[0.25em] text-[#201c3f] uppercase">Trusted Partners</p>
                     <h2 className="text-3xl md:text-4xl font-bold text-[#201c3f] mt-2">Companies We Work With</h2>
@@ -28,8 +28,12 @@ export default function CompaniesWeWorkWith() {
                 >
                     {companies.map((item) => (
                         <SwiperSlide key={item.id}>
-                            <div className="flex items-center justify-center p-4  transition-all duration-300">
-                                <img src={item.logo} alt={item.name} className=" object-contain opacity-80  transition" />
+                            <div className="flex items-center justify-center p-4 h-[100px] bg-white">
+                                <img
+                                    src={item.logo}
+                                    alt={item.name}
+                                    className="h-full w-auto object-contain opacity-80 hover:opacity-100 transition"
+                                />
                             </div>
                         </SwiperSlide>
                     ))}

@@ -4,7 +4,7 @@ import LatestProjects from '@/components/showcase-portfolios/projectsPageCard'
 const PortfolioPage = () => {
   return (
     <>
-      <Banner title={"Trainings"} current={"trainings"} />
+      <Banner title={"Corporate Trainings"} subtitle={"Build a Safer, Smarter Workforce"} current={"Corporate Trainings"} />
       <LatestProjects />
     </>
   )

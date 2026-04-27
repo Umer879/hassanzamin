@@ -37,58 +37,42 @@ const projects = [
   {
     id: 1,
     img: "/assets/gallary/1.png",
-    headline: "L'Oréal Retail Design Training",
-    title: "Retail Training",
-    description: "Learn luxury retail design fundamentals skills."
+    title: "Working at Height"
   },
   {
     id: 2,
     img: "/assets/gallary/3.png",
-    headline: "Shan foods - Training",
-    title: "Merchandising Training Live App Tracking system",
-    description: "Understand live tracking and merchandising workflow systems."
+    title: "Merchandising Training"
   },
   {
     id: 3,
     img: "/assets/gallary/8.png",
-    headline: "Flora by BlueBend Launching Training",
-    title: "Flora Launch Training",
-    description: "Understand complete process of launching Flora products effectively."
+    title: "Flora Launch Training"
   },
   {
     id: 4,
     img: "/assets/gallary/7.png",
-    headline: "Hilal Foods Retail Merchandising Training",
-    title: "Retail Merchandising Training",
-    description: "Learn effective retail merchandising and product placement strategies."
+    title: "Retail Merchandising Training"
   },
   {
     id: 5,
     img: "/assets/gallary/9.png",
-    headline: "L'Oréal Modern Trade Channel Training",
-    title: "Modern Trade Training",
-    description: "Understand modern retail channels and trade execution strategies."
+    title: "Modern Trade Training"
   },
   {
     id: 6,
     img: "/assets/gallary/14.png",
-    headline: "Retail Design Mastery",
-    title: "Retail Design Mastery",
-    description: "Create modern and engaging retail experiences through design principles."
+    title: "Retail Design Mastery"
   },
   {
     id: 7,
     img: "/assets/gallary/5.png",
-    headline: "Modern Trade App Tracking Training",
-    title: "App Tracking Training",
-    description: "Learn how to track and manage modern trade retail operations efficiently."
+    title: "App Tracking Training"
   },
   {
     id: 8,
     img: "/assets/gallary/14.png",
-    headline: "Retail Design Mastery",
-    title: "Retail Design Mastery",
-    description: "Create modern and engaging retail experiences through design principles."
+    title: "Retail Design Mastery"
   }
 ];
 

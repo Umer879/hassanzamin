@@ -77,7 +77,7 @@ const Footer = () => {
 
                 {/* Column 3 */}
                 <div>
-                    <h3 className="text-lg font-bold text-[#201c3f] mb-4">Address</h3>
+                    <h3 className="text-lg font-bold text-[#201c3f] mb-4">Contact Us</h3>
                     <ul className="space-y-3 text-sm text-[#201c3f]">
                         <li className="flex text-[16px] items-center gap-2">
                             <FaPhone size={18} />
@@ -90,6 +90,12 @@ const Footer = () => {
                             <FaEnvelope size={18} />
                             <a href="mailto:info@hassanzamin.com" className="hover:text-[#f2f540] blue-600 transition">
                                 info@hassanzamin.com
+                            </a>
+                        </li>
+                        <li className="flex text-[16px] items-center gap-2 my-4">
+                            <FaEnvelope size={18} />
+                            <a href="mailto:info@hassanzamin.com" className="hover:text-[#f2f540] blue-600 transition">
+                                hassaanzamin@gmail.com
                             </a>
                         </li>
 

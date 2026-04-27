@@ -15,7 +15,7 @@ const ProjectPageCard = () => {
                     </div>
                 </div>
 
-                    <div className="training-section text-center">
+                <div className="training-section text-center">
                     <h2 className="font-bold text-[20px] mt-10">Quality, Safety, Health, & Environment</h2>
 
                     <div className="grid grid-cols-2 py-10 px-6 md:px-12 lg:px-20 sm:grid-cols-3 md:grid-cols-4 gap-8">
@@ -23,16 +23,18 @@ const ProjectPageCard = () => {
                         {projects.map((item) => (
                             <div
                                 key={item.id}
-                                className="bg-white shadow-sm my-cards border h-[200px] rounded-[18px]"
+                                className="bg-white shadow-sm my-cards border h-[220px] rounded-[18px]"
                             >
                                 <img
                                     src={item.img}
                                     className="rounded-t-[18px] h-[70%] w-full object-cover"
                                     alt={item.title}
                                 />
-                                <h2 className="mt-4 font-bold text-center">
-                                    {item.title}
-                                </h2>
+                                <div className="h-[30%] px-1 flex items-center justify-center">
+                                    <h2 className="font-bold text-center">
+                                        {item.title}
+                                    </h2>
+                                </div>
                             </div>
                         ))}
 

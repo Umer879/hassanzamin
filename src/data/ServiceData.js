@@ -37,12 +37,12 @@ const projects = [
   {
     id: 1,
     img: "/assets/gallary/1.png",
-    title: "Working at Height"
+    title: "L'Oréal Retail Design Training"
   },
   {
     id: 2,
     img: "/assets/gallary/3.png",
-    title: "Merchandising Training"
+    title: "Shan Foods Merchandising Training"
   },
   {
     id: 3,
@@ -52,7 +52,7 @@ const projects = [
   {
     id: 4,
     img: "/assets/gallary/7.png",
-    title: "Retail Merchandising Training"
+    title: "Hilal Foods Retail Merchandising Training"
   },
   {
     id: 5,

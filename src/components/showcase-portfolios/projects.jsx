@@ -25,7 +25,7 @@ const ProjectPageCard = () => {
                         {projects.map((item) => (
                             <div
                                 key={item.id}
-                                className="bg-white shadow-sm my-cards border h-[200px] rounded-[18px]"
+                                className="bg-white shadow-sm my-cards border h-[220px] rounded-[18px]"
                             >
                                 <img
                                     src={item.img}

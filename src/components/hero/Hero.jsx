@@ -48,7 +48,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="hero-img sm:w-[450px] h-[400px] mt-10  relative group">
+      <div className="hero-img w-full sm:w-[450px] h-[400px] mt-10  relative group">
         <img
           src="/assets/photo.jpeg"
           alt=""

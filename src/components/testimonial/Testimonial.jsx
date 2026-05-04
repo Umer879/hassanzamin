@@ -30,14 +30,14 @@ const Testimonial = () => {
               onClick={() => swiperRef.current?.slidePrev()}
               className="w-15 h-15 flex text-[#201c3f] items-center justify-center border border-[#f1f45d] rounded-full  hover:bg-[#f1f45d] transition"
             >
-              <MdArrowBack size={25} />
+              <MdArrowBack size={25} aria-label="arrow back icon" />
             </button>
 
             <button
               onClick={() => swiperRef.current?.slideNext()}
               className="w-15 h-15 flex items-center justify-center  border border-[#f1f45d] rounded-full text-[#201c3f]  hover:bg-[#f1f45d] transition"
             >
-              <MdArrowForward size={25} />
+              <MdArrowForward size={25} aria-label="arrow right icon" />
             </button>
           </div>
         </div>

@@ -130,7 +130,7 @@ const Footer = () => {
                             type="submit"
                             className="absolute right-2 cursor-pointer top-1/2 transform -translate-y-1/2 bg-gray-200 p-2 rounded-[4px]  transition"
                         >
-                            <MdSend size={22} />
+                            <MdSend size={22} aria-label="send icon" />
                         </button>
                     </form>
 

@@ -9,15 +9,17 @@ const ProjectPageCard = () => {
                 <div className="text-center bg-[#ffffff]  text-[#201c3f]">
                     <div className="py-10 px-6 md:px-12">
                         <h4 className=" text-[22px] uppercase font-bold  mb-3">
-                            Customized Corporate Trainings in Pakistan
+                            Hassan Zamin Digital Growth Expert
                         </h4>
-                        <p className="text-[18px]">Welcome to Abacus International Training & Consultancy the top leading corporate and customized HSE training provider in Lahore, Islamabad, and Karachi, Pakistan. We prioritize fostering a culture of safety and sustainability across diverse industries and global landscapes. Our comprehensive HSE corporate safety training modules are meticulously designed to meet the unique needs of organizations, empowering their workforce with the knowledge and skills necessary to navigate complex HSE challenges confidently. Our expert will identify your needs and create a training program that is right for you.</p>
+                        <p className="text-[18px]">
+                            Hassan Zamin is a seasoned Digital Marketing Strategist and Business Growth Expert with over 15 years of experience including 9 years in digital and performance marketing. He combines corporate and FMCG background with modern strategies to deliver measurable growth for brands across pharma beauty cosmetics FMCG and service industries. He specializes in lead generation brand positioning funnel optimization and business development. His approach is data driven practical and ROI focused. He helps businesses scale through strategic marketing systems and consulting services for sustainable growth success
+                        </p>
                     </div>
                 </div>
 
                 <div className="training-section text-center">
                     <h2 className="font-bold text-[20px] mt-10 text-center">
-                        Quality, Safety, Health, & Environment
+                        Creative Strategies. Measurable Results.
                     </h2>
 
                     <div className="grid grid-cols-2 py-10 px-6 md:px-12 lg:px-20 sm:grid-cols-3 md:grid-cols-4 gap-8">

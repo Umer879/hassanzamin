@@ -10,7 +10,6 @@ const Navbar = () => {
         { name: "Home", href: "/" },
         { name: "About", href: "/about-us" },
         { name: "Services", href: "/services" },
-        // { name: "Blogs", href: "/blogs" },
         { name: "Trainings", href: "/trainings" },
         { name: "Contact Us", href: "/contact-us" },
     ];
@@ -24,7 +23,7 @@ const Navbar = () => {
                     {/* --- LAPTOP NAVBAR (Left Col: Logo) --- */}
                     <div className="flex-shrink-0" >
                         <Link href="/">
-                            <Image width={150} height={80} src="/assets/logo/final-logo.jpg" alt="" />
+                            <Image width={150} height={80} src="/assets/logo/final-logo.jpg" alt="hassan zamin logo" />
                         </Link>
                     </div>
 

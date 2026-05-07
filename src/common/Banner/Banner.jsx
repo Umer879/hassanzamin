@@ -4,31 +4,34 @@ import { FaHome, FaChevronRight } from "react-icons/fa";
 
 const Banner = ({ title, subtitle, current }) => {
   return (
-    <section className="relative w-full h-[250px]  bg-[#201c3f] flex items-center justify-center overflow-hidden">
+    <section className="relative w-full h-[250px] bg-[#201c3f] flex items-center justify-center overflow-hidden">
 
-      {/* Background Decoration Image */}
+      {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/assets/icons/banner-bg.png"
+          src="/assets/banner/banner.jpg"
           alt="bg-shape"
           className="w-full h-full object-cover"
         />
       </div>
 
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-[#201c3f]/80"></div>
+
       {/* Content */}
-      <div className="relative z-10 text-center text-white px-4">
+      <div className="relative z-10 text-center text-white p-4 bg-white/50 rounded-2xl basis-[80%] sm:basis-[50%]">
 
         {/* Page Title */}
         <h1 className="text-3xl md:text-[40px] font-bold mb-3">
           {title}
         </h1>
+
         <h2 className="text-[26px] font-semibold mb-3">
           {subtitle}
         </h2>
 
-
-        <div className="flex justify-center items-center">
-          <div className="flex items-center p-2 justify-center gap-2 text-sm md:text-base bg-black w-fit">
+        <div className="flex justify-center items-center mt-5">
+          <div className="flex items-center p-2 justify-center gap-2 text-sm md:text-base bg-black backdrop-blur-sm rounded-md w-fit">
 
             <Link
               href="/"

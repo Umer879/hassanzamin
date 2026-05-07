@@ -4,7 +4,7 @@ import Services from '@/components/services/ServiceCard'
 const ServicesPage = () => {
   return (
     <div>
-      <Banner title={"Services"} current={"services"} />
+      <Banner title={"What We Offer"}current={"services"} />
       <Services />
     </div>
   )

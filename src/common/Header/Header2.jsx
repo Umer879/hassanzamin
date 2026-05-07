@@ -101,7 +101,7 @@ const Navbar = () => {
                             rel="noopener noreferrer"
                             className="flex items-center uppercase gap-2  text-[#201c3f] px-5 py-2.5 border hover:text-white hover:bg-[#201c3f] border-[#201c3f] rounded-[4px]"
                         >
-                            Whatsapp: +92 345 3884988
+                            Whatsapp: <br /> +92 345 3884988
                         </a>
                     </div>
                 </div>

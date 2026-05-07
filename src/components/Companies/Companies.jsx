@@ -28,11 +28,11 @@ export default function CompaniesWeWorkWith() {
                 >
                     {companies.map((item) => (
                         <SwiperSlide key={item.id}>
-                            <div className="flex items-center justify-center p-4 h-[100px] bg-white">
+                            <div className="flex items-center justify-center bg-white border border-gray-200 w-[100px] rounded-2xl p-1 shadow-md">
                                 <img
                                     src={item.logo}
                                     alt={item.name}
-                                    className="h-full w-auto object-contain opacity-80 hover:opacity-100 transition"
+                                    className="  object-contain opacity-80 hover:opacity-100 transition"
                                 />
                             </div>
                         </SwiperSlide>

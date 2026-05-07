@@ -9,7 +9,7 @@ const AboutUsPage = () => {
   
   return (
     <div>
-         <Banner title={"About Us"} current={"about-Us"} />
+         <Banner title={"Digital Growth Experts"}current={"about-Us"} />
          <About />
          <SkillsMarquee />
          <AboutVideo />

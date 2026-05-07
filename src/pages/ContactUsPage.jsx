@@ -5,7 +5,7 @@ import ContactSection from '@/components/Contact/ContactForm'
 const ContactUsPage = () => {
   return (
     <>
-              <Banner title={"Contact Us"} current={"Contact-Us"} />
+              <Banner title={"Let's Work Together"}current={"Contact-Us"} />
         <ContactSection />
       <ContactInfo />
     </>

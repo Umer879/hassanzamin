@@ -13,7 +13,7 @@ export default function SkillsMarquee() {
   ];
 
   return (
-    <div className="relative w-full bg-black overflow-hidden py-6">
+    <div className="relative w-full bg-black overflow-hidden py-6 mt-4 sm:mt-0">
 
       <div className="flex marquee-track text-white font-bold text-[24px] md:text-[40px] gap-16">
 

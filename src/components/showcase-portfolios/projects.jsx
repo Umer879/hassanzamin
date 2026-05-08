@@ -34,7 +34,7 @@ const ProjectPageCard = () => {
                                     className="rounded-t-[18px] h-[70%] w-full object-cover"
                                     alt={item.title}
                                 />
-                                <h2 className="mt-4 font-bold text-center">
+                                <h2 className="mt-4 font-bold text-[12px] sm:text-[16px] text-center">
                                     {item.title}
                                 </h2>
                             </div>

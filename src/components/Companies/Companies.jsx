@@ -21,9 +21,9 @@ export default function CompaniesWeWorkWith() {
                     loop={true}
                     autoplay={{ delay: 2000, disableOnInteraction: false }}
                     breakpoints={{
-                        0: { slidesPerView: 2 },
+                        0: { slidesPerView: 3 },
                         640: { slidesPerView: 4 },
-                        768: { slidesPerView: 6 },
+                        768: { slidesPerView: 7 },
                     }}
                 >
                     {companies.map((item) => (

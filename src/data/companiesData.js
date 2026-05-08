@@ -7,6 +7,11 @@ const companies = [
     { id: 6, logo: "/assets/company-logo/6.png", name: "jade beauty" },
     { id: 7, logo: "/assets/company-logo/7.png", name: "vida cosmetic" },
     { id: 8, logo: "/assets/company-logo/8.png", name: "Loreal groups" },
+    { id: 9, logo: "/assets/company-logo/9.png", name: "MTJ Tariq Jameel" },
+    { id: 10, logo: "/assets/company-logo/10.png", name: "Cosmetic Enclave" },
+    { id: 11, logo: "/assets/company-logo/11.png", name: "Pharma Asia" },
+    { id: 12, logo: "/assets/company-logo/12.png", name: "Iehsas Logo" },
+    { id: 13, logo: "/assets/company-logo/13.png", name: "Escobar Hair Salon" },
 ];
 
 export default companies

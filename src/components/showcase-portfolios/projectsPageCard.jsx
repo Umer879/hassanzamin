@@ -33,7 +33,7 @@ const ProjectPageCard = () => {
                                     alt={item.title}
                                 />
                                 <div className="h-[30%] px-1 flex items-center justify-center">
-                                    <h2 className="font-bold text-center">
+                                    <h2 className="font-bold text-center text-[12px] sm:text-[16px]">
                                         {item.title}
                                     </h2>
                                 </div>
